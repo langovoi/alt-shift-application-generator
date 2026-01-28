@@ -1,0 +1,39 @@
+.heading {
+  font-family: var(--font-family-heading);
+  font-weight: 600;
+  margin: 0;
+}
+
+.level1 {
+  font-size: var(--font-size-2xl);
+  line-height: var(--leading-size-2xl);
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .level1 {
+    font-size: var(--font-size-4xl);
+    line-height: var(--leading-size-4xl);
+  }
+}
+
+.level2 {
+  font-size: var(--font-size-xl);
+  line-height: var(--leading-size-xl);
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .level2 {
+    font-size: var(--font-size-3xl);
+    line-height: var(--leading-size-3xl);
+  }
+}
+
+.colorDefault {
+  color: var(--color-text-primary);
+}
+
+.colorMuted {
+  color: var(--color-text-secondary);
+}

@@ -1,0 +1,9 @@
+.counter {
+  font-size: var(--font-size-sm);
+  line-height: var(--leading-size-sm);
+  color: var(--color-text-label);
+}
+
+.counter.error {
+  color: var(--color-error);
+}

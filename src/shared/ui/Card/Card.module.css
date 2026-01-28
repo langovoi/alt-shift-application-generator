@@ -1,0 +1,11 @@
+.card {
+  border-radius: var(--radius-lg);
+}
+
+.default {
+  background-color: var(--color-bg-secondary);
+}
+
+.highlight {
+  background-color: var(--color-bg-highlight);
+}

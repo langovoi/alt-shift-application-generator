@@ -1,0 +1,36 @@
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: calc(var(--spacing) * 2);
+}
+
+.progressText {
+  font-size: var(--font-size-sm);
+  line-height: var(--leading-size-sm);
+  color: var(--color-text-secondary);
+  text-align: right;
+}
+
+.checkIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--spacing) * 7);
+  height: calc(var(--spacing) * 7);
+  color: var(--color-success);
+  background: var(--color-bg-success);
+  border-radius: 100%;
+}
+
+@media (min-width: 640px) {
+  .progress {
+    flex-direction: row;
+    align-items: center;
+    gap: calc(var(--spacing) * 4);
+  }
+
+  .progressText {
+    font-size: var(--font-size-lg);
+  }
+}

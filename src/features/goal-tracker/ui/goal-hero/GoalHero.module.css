@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(var(--spacing) * 6);
+  padding: calc(var(--spacing) * 8) calc(var(--spacing) * 4);
+}
+
+@media (min-width: 640px) {
+  .card {
+    gap: calc(var(--spacing) * 8);
+    padding: calc(var(--spacing) * 13.5) calc(var(--spacing) * 16);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: calc(var(--spacing) * 4);
+  max-width: calc(var(--spacing) * 120);
+}
+
+.description {
+  font-size: var(--font-size-md);
+  line-height: var(--leading-size-md);
+  color: var(--color-text-secondary);
+}
+
+@media (min-width: 640px) {
+  .description {
+    font-size: var(--font-size-lg);
+    line-height: var(--leading-size-lg);
+  }
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: calc(var(--spacing) * 2);
+}
+
+.progressText {
+  font-size: var(--font-size-md);
+  line-height: var(--leading-size-md);
+  color: var(--color-text-secondary);
+}
+
+@media (min-width: 640px) {
+  .progressText {
+    font-size: var(--font-size-lg);
+    line-height: var(--leading-size-lg);
+  }
+}

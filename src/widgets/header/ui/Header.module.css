@@ -1,0 +1,13 @@
+.header {
+  background-color: var(--color-bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(var(--spacing) * 12);
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--spacing) * 6);
+}

@@ -1,0 +1,17 @@
+.logo {
+  height: calc(var(--spacing) * 8);
+  width: auto;
+  vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: calc(var(--spacing) * 10);
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo {
+    height: calc(var(--spacing) * 12);
+  }
+}

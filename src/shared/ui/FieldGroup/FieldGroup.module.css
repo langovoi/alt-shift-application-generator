@@ -1,0 +1,23 @@
+.group {
+  display: flex;
+  gap: calc(var(--spacing) * 4);
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.horizontal {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .horizontal {
+    flex-direction: row;
+  }
+}
+
+.horizontal > * {
+  flex: 1;
+  min-width: 0;
+}

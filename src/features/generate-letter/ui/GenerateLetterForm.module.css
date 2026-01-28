@@ -1,0 +1,12 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: calc(var(--spacing) * 4);
+}
+
+@media (min-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+    gap: calc(var(--spacing) * 8);
+  }
+}

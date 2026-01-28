@@ -1,0 +1,94 @@
+@import "modern-normalize";
+
+:root {
+  --color-primary: #087443;
+  --color-primary-hover: #065f37;
+
+  --color-error: #dc2626;
+  --color-success: #12b76a;
+
+  --color-text-primary: #101828;
+  --color-text-secondary: #667085;
+  --color-text-label: #344054;
+  --color-text-muted: #98a2b3;
+
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f2f4f7;
+  --color-bg-tertiary: #f9fafb;
+  --color-bg-highlight: #edfcf2;
+  --color-bg-success: #d1fadf;
+
+  --color-border: #d0d5dd;
+  --color-border-light: #eaecf0;
+  --color-border-focus: #73e2a3;
+  --color-border-error: var(--color-error);
+
+  --color-ring: #d3f8df;
+  --color-ring-desctructive: #fee4e2;
+
+  --spacing: 4px;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+
+  --font-family: system-ui, sans-serif;
+  --font-family-heading: system-ui, sans-serif;
+
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 36px;
+  --font-size-4xl: 48px;
+
+  --leading-size-sm: 20px;
+  --leading-size-md: 24px;
+  --leading-size-lg: 28px;
+  --leading-size-xl: 32px;
+  --leading-size-2xl: 40px;
+  --leading-size-3xl: 44px;
+  --leading-size-4xl: 60px;
+
+  --shadow-color: rgba(16, 24, 40, 0.05);
+  --shadow: 0 1px 2px 0 var(--shadow-color);
+
+  --transition: 150ms ease;
+}
+
+html {
+  font-family: var(--font-family);
+  font-size: var(--font-size-md);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
